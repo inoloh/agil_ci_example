@@ -10,7 +10,7 @@ describe("Translators", function () {
             assert.strictEqual(toRobber("Hejsan hoppsan!"), "Hohejojsosanon hohopoppopsosanon!")
         })
         it("should work for simple input", function () {
-            assert.strictEqual(toRobber("hoppsan!"), "hohopoppopsosanon!")
+            assert.strictEqual(toRobber("hoppsan!"), "hohopppopsosanon!")
         })
     })
     describe("#toNormal", function () {
